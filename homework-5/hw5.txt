@@ -1,0 +1,12 @@
+
+1. document.getElementById("age-table");
+2. document.getElementById("age-table").getElementsByTagName("label");
+3. document.getElementById("age-table").getElementByTagName("td");
+4. document.querySelector("form")
+5. document.querySelector("input")
+6. document.querySelectorAll("input")[length]
+
+///
+
+2)
+body?
