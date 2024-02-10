@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  <p id="slide-btn">▼ Sweeties (click me)!</p>
+  <ul>
+    <li>Cake</li>
+    <li>Donut</li>
+    <li>Honey</li>
+  </ul>
+
+</body>
+<script>
+    const slideBtn = document.getElementById("slide-btn");
+    const list = document.querySelector("ul");
+
+    slideBtn.addEventListener("click", function() {
+        if(list.style.display=="none") {
+            slideBtn.innerHTML="▼ Sweeties (click me)!"
+            list.style.display="";
+        }
+        else {
+        slideBtn.innerHTML="▶ Sweeties (click me)!";
+        list.style.display="none";
+    }})
+</script>
+</html>
