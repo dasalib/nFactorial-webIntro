@@ -9,6 +9,9 @@ fetch("https://api.nytimes.com/svc/books/v3/reviews.json?author=Haruki%20Murakam
         <h2>${article.book_title}</h2>
         <p>Reviewed by ${article.byline}</p>
         <p>${article.summary}</p>
+        <button class="btn btn-sm btn-outline-primary">Book Reviews</button>
+        <button class="btn btn-sm btn-outline-secondary">1 min read</button>
+        <button class="btn btn-sm btn-outline-secondary">Selected for you</button>
     </div>
 `).join('');
     reviewsList.innerHTML = articlesHTML;
