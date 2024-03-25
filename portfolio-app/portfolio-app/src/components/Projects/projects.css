@@ -1,0 +1,19 @@
+#projects {
+    background-color: #eaeaea;
+    padding: 50px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    color: #555;
+}
