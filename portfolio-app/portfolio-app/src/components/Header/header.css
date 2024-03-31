@@ -17,6 +17,21 @@ header {
     padding: 20px;
 }
 
+.header-dark {
+    background-color: #333;
+    position: 'fixed';
+     top: 0;
+      left: 0;
+       right: 0;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-light {
+    color: #333;
+    background-color: gray;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
